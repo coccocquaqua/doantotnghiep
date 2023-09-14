@@ -64,13 +64,13 @@
                         <li class="menu-items ">
                           <a href="https://myshoes.vn/giay-nike-nam"><i class="horizontal-arrow-icon">→</i><span class="links-texts">Giày Nike Nam</span></a>
                         </li>
+                        <hr>
                         <li class="menu-items ">
                           <a href="https://myshoes.vn/giay-nike-nu"><i class="horizontal-arrow-icon">→</i><span class="links-texts">Giày Nike Nữ</span></a>
                         </li>
                       </ul>
                     </div>
                   </li>
-                  
                   <li class="menu-item main-menu-item main-menu-item-5 multi-level drop-menu">
                     <a href="https://myshoes.vn/giay-adidas">
                       <span class="links-text">Giày Adidas</span>

@@ -296,13 +296,13 @@ body {
   position: absolute;
   top: -15px;
   right: -10px;
-  height: 12px;
+  height: 17px;
   font-size: 10.6px;
 }
 
 .links-texts {
   color: black;
-
+padding: 10px;
 }
 
 .dropdown-toggle::after {
@@ -316,6 +316,7 @@ body {
 .dropdown-menu {
   display: none;
   padding: 0px;
+  border-radius: 10px;
 }
 
 /* Hiển thị menu con khi hover vào mục cha */
@@ -329,7 +330,8 @@ body {
 
 .j-menus {
   list-style: none;
-  padding: 0px;
+  padding: 10px;
+  height: 77px;
 }
 
 .j-menu {
