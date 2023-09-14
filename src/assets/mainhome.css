@@ -8,7 +8,11 @@ body {
 /* Định dạng phần header */
 .header-classic {
   background-color: rgb(8, 103, 162);
-  height: 170px;
+  height: 150px;
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  width: 100%;
 }
 
 /* Định dạng phần top menu */
@@ -120,14 +124,18 @@ body {
 /* Định dạng main menu */
 .main-menu {
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  margin-top: -12px;
+  
 }
 
 .main-menu-item {
   position: relative;
   display: inline-block;
   margin-right: 15px;
+  display: flex;
+  align-items: center;
 }
 
 .main-menu-item a {
@@ -242,7 +250,6 @@ body {
   display: flex;
   align-items: center;
   list-style: none;
-  margin-left: 100px;
   padding: 0;
   margin-top: 20px;
 }
@@ -326,7 +333,22 @@ body {
 }
 
 .j-menu {
-  margin-left: 120px;
+  display: flex;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+.menu-item-lienhe {
+  margin-right: 15px;
+  justify-items: center;
+  flex-direction: row
+}
+
+.icon-email {
+  /* Định dạng biểu tượng email (sử dụng một biểu tượng email tùy chọn) */
+  font-size: 18px;
+  margin-right: 5px;
+  color: white;
 }
 
 .sale {
@@ -344,19 +366,350 @@ body {
 .grid-row {
   display: flex;
   /* Sử dụng Flexbox để chia thành một hàng ngang */
-  margin-top: 40px;
+  margin-top: 180px;
   margin-left: 140px;
 }
 
 .grid-cols {
   display: flex;
-  /* Sử dụng Flexbox để chia các cột trong hàng ngang */
-  justify-content: space-between;
-  /* Cách đều các cột */
+  flex-wrap: nowrap; /* Đảm bảo các phần tử con không xuống dòng */
+  overflow-x: auto; /* Hiển thị thanh cuộn nếu nội dung vượt ra ngoài */
+  scroll-behavior: smooth; /* Làm cho việc cuộn mượt mà hơn */
+  -webkit-overflow-scrolling: touch; /* Cải thiện trải nghiệm cuộn trên thiết bị cảm ứng */
+  scrollbar-width: none; /* Ẩn thanh cuộn trình duyệt (tuỳ chọn) */
+  -ms-overflow-style: none; /* Ẩn thanh cuộn trình duyệt (tuỳ chọn) */
+  position: relative;
 }
-.ms-slide-bgcont1{
-margin-right: 30px;
+.grid-cols::-webkit-scrollbar {
+  display: none; /* Ẩn thanh cuộn trình duyệt (tuỳ chọn) */
 }
-.ms-slide-bgcont3{
+
+.ms-slide-bgcont1 {
+  margin-right: 30px;
+}
+
+.ms-slide-bgcont3 {
   margin-left: 30px;
-  }
+}
+
+
+/* Áp dụng kiểu cho các thông tin block */
+/* Thiết lập kiểu cho các khối thông tin */
+.info-blocks {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.info-block {
+  display: flex;
+  align-items: center;
+  margin-right: 18px; /* Khoảng cách giữa các khối thông tin */
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.info-block-text {
+  margin-left: 10px; /* Khoảng cách giữa biểu tượng và văn bản */
+}
+
+/* Thiết lập kiểu cho biểu tượng */
+.icon {
+  font-size: 24px; /* Kích thước biểu tượng */
+  color: black; /* Màu sắc biểu tượng, thay đổi màu sắc tùy ý */
+}
+/* định dạng sản phẩm mới */
+
+.title-wrapper{
+  display: flex;  
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Định dạng phần chứa sản phẩm */
+.product-girl {
+  display: grid;
+  grid-template-columns: repeat(5, 3.5fr);
+  grid-gap: 10px;
+  margin: 10px;
+  padding: 170px;
+  background-color: #fff;
+  margin-top: -130px;
+  height: 550px
+}
+
+/* Định dạng hình ảnh sản phẩm */
+.product-img {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.product-img img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-img img:hover {
+  transform: scale(1.1); /* Phóng to hình ảnh khi di chuột vào */
+}
+
+/* Định dạng các nhãn sản phẩm */
+.product-labels {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.product-label {
+  display: block;
+  padding: 5px 10px;
+  background-color: #f00; /* Màu nền của nhãn sản phẩm */
+  color: #fff; /* Màu chữ của nhãn sản phẩm */
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+/* Định dạng hẹn giờ đếm ngược */
+.countdown {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.countdown div {
+  display: inline-block;
+  margin: 0 5px;
+  font-weight: bold;
+  color: #333; /* Màu chữ của đếm ngược */
+}
+
+.product-img img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi di chuột vào sản phẩm, phóng to hình ảnh */
+.product-thumb:hover img {
+  transform: scale(1.1);
+}
+
+/* Ẩn hình ảnh thứ hai ban đầu */
+.product-img .img-second {
+  display: none;
+}
+
+/* Khi di chuột vào sản phẩm, ẩn hình ảnh thứ nhất và hiển thị hình ảnh thứ hai */
+.product-thumb:hover .img-first {
+  display: none;
+}
+
+.product-thumb:hover .img-second {
+  display: block;
+}
+
+/* Định dạng các nhãn sản phẩm */
+.product-labels {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.product-label {
+  display: block;
+  padding: 5px 10px;
+  background-color: #f00;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+/* Định dạng hẹn giờ đếm ngược */
+.countdown {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.countdown div {
+  display: inline-block;
+  margin: 0 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Định dạng tên sản phẩm */
+.name {
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.name a {
+  color: rgb(51, 44, 44);
+  font-size: 14px;
+  text-decoration: none;
+}
+/* Định dạng giá sản phẩm */
+.price {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.price .price-new {
+  color: #f00;
+  font-size: 13px;
+  font-weight: bold;
+
+}
+
+.price .price-old {
+  color: #888;
+  text-decoration: line-through;
+  font-size: 13px;
+}
+
+/* Định dạng xếp hạng sản phẩm (rating) */
+.rating {
+  margin-top: 10px;
+}
+
+.rating-stars {
+  color: #f00;
+  text-align: center;
+}
+
+.stats a {
+  color: black;
+  font-size: 12px;
+}
+.link-puma:hover{
+color:blue;
+}
+
+.rating-stars .fa-stack {
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+/* Định dạng nút thêm vào giỏ hàng */
+.button-group {
+  margin-top: 10px;
+}
+
+.cart-group {
+  display: flex;
+  align-items: center;
+}
+
+.cart-group .stepper {
+  width: 60px;
+  text-align: center;
+}
+
+.cart-group .stepper input[type="text"] {
+  width: 40px;
+  text-align: center;
+}
+
+.cart-group .stepper span {
+  display: block;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f00;
+  line-height: 1;
+}
+
+.cart-group .stepper span:hover {
+  color: #333;
+}
+
+.cart-group .btn-cart {
+  background-color: #f00;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.cart-group .btn-cart:hover {
+  background-color: #333;
+}
+
+/* Định dạng các nút mua hàng và gọi điện */
+.extra-group {
+  margin-top: 10px;
+}
+
+.extra-group a.btn-extra {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #f00;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.extra-group .btn-extra:hover {
+  background-color: #333;
+}
+
+/* Định dạng tooltip cho nút Xem nhanh */
+.btn-quickview {
+  background-color: #f00;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+.btn-quickview:hover {
+  background-color: #333;
+}
+.stats{
+  text-align:center;
+  justify-content: center;
+}
+.rating-stars .fa-stack {
+  font-size: 8px;
+  margin-right: 2px;
+}
+.product-thumb {
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: rgba(221, 221, 221, 1);
+  padding-bottom: 10px;
+}
+.title-wrapper>.title-divider{
+    width: 100px;
+    height: 4px;
+    background: rgba(226, 41, 61, 1);
+    margin-bottom: 9px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

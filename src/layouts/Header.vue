@@ -111,6 +111,12 @@
                       <span class="sale">SALE</span>
                     </a>
                   </li>
+                  <li class="menu-item-lienhe main-menu-item main-menu-item-13 multi-level drop-menu">
+                      <Icon class="icon-email"  icon="carbon:email" />
+                    <a href="https://myshoes.vn/sieu-sale">
+                      <span class="links-text">Liên hệ</span>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
