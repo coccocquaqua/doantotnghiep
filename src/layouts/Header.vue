@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <!-- <div>
         <div class="header header-classic header-lg">
             <div class="mid-bar navbar-nav">
               <div class="icons-wrapper">
@@ -42,8 +42,8 @@
                         aria-expanded="false"
                       >
                         <i class="fa fa-shopping-cart cart-icon"></i>
-                        <!-- Thêm biểu tượng giỏ hàng -->
-                        <span id="cart-total"></span>
+                         Thêm biểu tượng giỏ hàng -->
+                        <!-- <span id="cart-total"></span>
                         <span id="cart-items" class="count-badge count-zero">0</span>
                       </a>
                     </div>
@@ -121,7 +121,57 @@
               </div>
             </div>
           </div>
-    </div>
+    </div> --> 
+    <nav class="colorlib-nav" role="navigation">
+			<div class="top-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-md-6">
+							<div id="colorlib-logo"><a href="index.html">Footwear</a></div>
+						</div>
+						<div class="col-sm-3 col-md-3">
+							<form class="search-wrap">
+								<div class="form-group">
+									<input type="search" class="form-control search" placeholder=" Tìm Kiếm">
+									<button class="btn btn-primary submit-search text-center" type="submit"><i
+											class="icon-search"></i></button>
+								</div>
+							</form>
+						</div>
+						<div class="col-sm-3 col-md-3">
+							<form class="search-wrap">
+								<div class="form-group">
+									<button class="btn btn-primary submit-search text-center" style="width: 100px;margin-left: 140px;position: relative;"
+										type="submit"><i><a href="login.html" style="color: aliceblue;">Tài Khoản</a></i></button>
+								</div>
+							</form>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-sm-12 text-left menu-1">
+							<ul>
+								<li class="active"><a href="index.html">Trang Chủ</a></li>
+								<li class="has-dropdown">
+									<a href="men.html">Giày Nam</a>
+									<ul class="dropdown">
+										<li><a href="product-detail.html">Chi Tiết Sản Phẩm</a></li>
+										<li><a href="cart.html">Giỏ Hàng</a></li>
+										<li><a href="checkout.html">Thanh Toán</a></li>
+
+									</ul>
+								</li>
+								<li><a href="women.html">Giày Nữ</a></li>
+								<li><a href="about.html">Giới Thiệu</a></li>
+								<li><a href="contact.html">Liên Hệ</a></li>
+								<li class="cart"><a href="cart.html"><i class="icon-shopping-cart"></i> Cart[0]</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
 </template>
 <script setup lang="ts"> 
 </script>

@@ -1,0 +1,116 @@
+/* @import url('./css/mainhome.css');
+@import url('./css/footer.css'); */
+
+/* css */
+
+@import url('./css/animate.css');
+@import url('./css/bootstrap-datepicker.css');
+@import url('./css/bootstrap.min.css');
+@import url('./css/flexslider.css');
+@import url('./css/footer.css');
+@import url('./css/icomoon.css');
+@import url('./css/ionicons.min.css');
+@import url('./css/magnific-popup.css');
+@import url('./css/mainhome.css');
+@import url('./css/owl.carousel.min.css');
+@import url('./css/owl.theme.default.min.css');
+@import url('./css/style.css');
+/* @import url('./css/style.css.map'); */
+@import url('./css/css/bootstrap-reboot.css');
+@import url('./css/css/mixins/_text-hide.css');
+
+/* sass/bootstrap */
+ 
+@import url('./sass/bootstrap/_alert.scss');
+@import url('./sass/bootstrap/_badge.scss');
+@import url('./sass/bootstrap/_breadcrumb.scss');
+@import url('./sass/bootstrap/_button-group.scss');
+@import url('./sass/bootstrap/_buttons.scss');
+@import url('./sass/bootstrap/_card.scss');
+@import url('./sass/bootstrap/_carousel.scss');
+@import url('./sass/bootstrap/_close.scss');
+@import url('./sass/bootstrap/_code.scss');
+@import url('./sass/bootstrap/_custom-forms.scss');
+@import url('./sass/bootstrap/_dropdown.scss');
+@import url('./sass/bootstrap/_forms.scss');
+@import url('./sass/bootstrap/_functions.scss');
+@import url('./sass/bootstrap/_grid.scss');
+@import url('./sass/bootstrap/_images.scss');
+@import url('./sass/bootstrap/_input-group.scss');
+@import url('./sass/bootstrap/_jumbotron.scss');
+@import url('./sass/bootstrap/_list-group.scss');
+@import url('./sass/bootstrap/_media.scss');
+@import url('./sass/bootstrap/_mixins.scss');
+@import url('./sass/bootstrap/_modal.scss');
+@import url('./sass/bootstrap/_navbar.scss');
+@import url('./sass/bootstrap/_pagination.scss');
+@import url('./sass/bootstrap/_popover.scss');
+@import url('./sass/bootstrap/_print.scss');
+@import url('./sass/bootstrap/_progress.scss');
+@import url('./sass/bootstrap/_reboot.scss');
+@import url('./sass/bootstrap/_root.scss');
+@import url('./sass/bootstrap/_tables.scss');
+@import url('./sass/bootstrap/_tooltip.scss');
+@import url('./sass/bootstrap/_transitions.scss');
+@import url('./sass/bootstrap/_type.scss');
+@import url('./sass/bootstrap/_utilities.scss');
+@import url('./sass/bootstrap/_variables.scss');
+@import url('./sass/bootstrap/bootstrap-grid.scss');
+@import url('./sass/bootstrap/bootstrap-reboot.scss');
+@import url('./sass/bootstrap/bootstrap.scss');
+
+/* sass/bootstrap/mixins */
+
+@import url('./sass/bootstrap/mixins/_alert.scss');
+@import url('./sass/bootstrap/mixins/_background-variant.scss');
+@import url('./sass/bootstrap/mixins/_badge.scss');
+@import url('./sass/bootstrap/mixins/_border-radius.scss');
+@import url('./sass/bootstrap/mixins/_box-shadow.scss');
+@import url('./sass/bootstrap/mixins/_breakpoints.scss');
+@import url('./sass/bootstrap/mixins/_buttons.scss');
+@import url('./sass/bootstrap/mixins/_caret.scss');
+@import url('./sass/bootstrap/mixins/_clearfix.scss');
+@import url('./sass/bootstrap/mixins/_float.scss');
+@import url('./sass/bootstrap/mixins/_forms.scss');
+@import url('./sass/bootstrap/mixins/_gradients.scss');
+@import url('./sass/bootstrap/mixins/_grid-framework.scss');
+@import url('./sass/bootstrap/mixins/_grid.scss');
+@import url('./sass/bootstrap/mixins/_hover.scss');
+@import url('./sass/bootstrap/mixins/_image.scss');
+@import url('./sass/bootstrap/mixins/_list-group.scss');
+@import url('./sass/bootstrap/mixins/_lists.scss');
+@import url('./sass/bootstrap/mixins/_nav-divider.scss');
+@import url('./sass/bootstrap/mixins/_pagination.scss');
+@import url('./sass/bootstrap/mixins/_reset-text.scss');
+@import url('./sass/bootstrap/mixins/_reset-text.scss');
+@import url('./sass/bootstrap/mixins/_resize.scss');
+@import url('./sass/bootstrap/mixins/_screen-reader.scss');
+@import url('./sass/bootstrap/mixins/_size.scss');
+@import url('./sass/bootstrap/mixins/_table-row.scss');
+@import url('./sass/bootstrap/mixins/_text-emphasis.scss');
+@import url('./sass/bootstrap/mixins/_text-hide.scss');
+@import url('./sass/bootstrap/mixins/_text-truncate.scss');
+@import url('./sass/bootstrap/mixins/_transition.scss');
+@import url('./sass/bootstrap/mixins/_visibility.scss');
+
+/* sass/bootstrap/utilities */
+
+@import url('./sass/bootstrap/utilities/_align.scss');
+@import url('./sass/bootstrap/utilities/_background.scss');
+@import url('./sass/bootstrap/utilities/_borders.scss');
+@import url('./sass/bootstrap/utilities/_clearfix.scss');
+@import url('./sass/bootstrap/utilities/_display.scss');
+@import url('./sass/bootstrap/utilities/_embed.scss');
+@import url('./sass/bootstrap/utilities/_flex.scss');
+@import url('./sass/bootstrap/utilities/_float.scss');
+@import url('./sass/bootstrap/utilities/_position.scss');
+@import url('./sass/bootstrap/utilities/_screenreaders.scss');
+@import url('./sass/bootstrap/utilities/_shadows.scss');
+@import url('./sass/bootstrap/utilities/_sizing.scss');
+@import url('./sass/bootstrap/utilities/_spacing.scss');
+@import url('./sass/bootstrap/utilities/_text.scss');
+@import url('./sass/bootstrap/utilities/_visibility.scss');
+
+/* sass */
+
+@import url('./sass/style.scss');
